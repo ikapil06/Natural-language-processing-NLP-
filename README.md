@@ -5,12 +5,36 @@ Welcome to my NLP (Natural Language Processing) project!
 ## Project Overview
 This repository contains a Flask web application for performing sentiment analysis on text data. The goal is to apply NLP techniques to analyze and classify the sentiment of user reviews or input text.
 
+## Quick Start: Run Directly from GitHub
+If you want to quickly run this project and see the results, follow these steps:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/ikapil06/Natural-language-processing-NLP-.git
+   cd Natural-language-processing-NLP-/sentiment_analysis_by_flask_app
+   ```
+2. **(Optional but recommended) Create a virtual environment:**
+   ```bash
+   python -m venv venv
+   venv\Scripts\activate  # On Windows
+   # Or
+   source venv/bin/activate  # On macOS/Linux
+   ```
+3. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. **Run the Flask app:**
+   ```bash
+   python app.py
+   ```
+5. **Open your browser and go to:**
+   [http://127.0.0.1:5000/](http://127.0.0.1:5000/)
+
+You should now see the web interface for sentiment analysis!
+
 ## My Learning Journey
 This project is a living document of my NLP learning journey. I will continuously update this repository with new techniques, models, and insights as I explore and learn more about NLP. Expect regular updates as I:
-- Experiment with different NLP models and algorithms
-- Add new features to the Flask app
-- Document key learnings, challenges, and solutions
-- Share resources and references that help me grow
 
 ## How to Use
 1. Clone the repository:
