@@ -1,0 +1,5 @@
+pandas
+matplotlib
+seaborn
+flask
+spacy>=3.0.0
